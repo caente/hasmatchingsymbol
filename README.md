@@ -1,9 +1,9 @@
 # hasmatchingsymbol
 project to show a bug
 
-It does not compile, when the typeclass and the cases classes are not in the same file. 
+It does not compile when the typeclass and the cases classes are not in the same file. 
 
-If I move the case classes to lib.scala, everything works nicely
+If I move the case classes to lib.scala (where the typeclass is), everything works nicely
 
 ```
 [info] /Users/caente1/workshop/hasMatchingSymbol/src/main/scala/main.scala:8: shapeless.this.Generic.materialize is not a valid implicit value for shapeless.Generic.Aux[models.Foo,G] because:
